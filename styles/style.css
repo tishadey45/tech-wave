@@ -5,6 +5,7 @@
     max-width: 80%;
     margin: 0 auto;
 }
+/* navbar style */
 .techwave-content{
     
     display: flex;
@@ -19,6 +20,7 @@
 /* .btn-primary{
    
 } */
+ /* banner section style */
  .banner-section{
     background-color: red;
  }
@@ -77,3 +79,50 @@
     border: 1px solid rgba(0,255,136,1);
     border-radius: 10000px;
    }
+   /* about section style */
+   .about-container{
+   text-align: center;
+   /* display: flex; */
+   }
+   .podcast-list{
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 80;
+   }
+
+   /* why choose tech-wave style */
+
+   .choose-title{
+    text-align: center;
+   }
+   .card-one{
+    background-color: blue;
+    grid-row: 1/3;
+   
+   }
+   .card-two{
+    background-color: blueviolet;
+   }
+   .card-three{
+    background-color: brown;
+   }
+   .card-four{
+    background-color: cyan;
+    /* grid-column: 2/1; */
+   }
+   .card-five{
+    background-color: crimson;
+    grid-column: 3/2;
+   }
+   .why-choose-container{
+    height: 100%;
+    display: grid;
+    gap: 20px;
+    border: 1px solid red;
+    border-radius: 40px;
+    grid-template-columns: repeat(2,1fr);
+    /* grid-template-rows: 50px auto 50px; */
+   }
+
