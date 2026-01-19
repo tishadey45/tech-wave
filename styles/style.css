@@ -19,3 +19,61 @@
 /* .btn-primary{
    
 } */
+ .banner-section{
+    background-color: red;
+ }
+ .image-container{
+    /* display:inline-block; */
+    position: relative;
+    width: 400px;
+    margin: 0 auto;
+    /* justify-content: center; */
+    /* align-items: center; */
+ }
+ .base-image{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   width: 100px;
+ }
+ .overlay-image{
+    width: 100%;
+ }
+ 
+ /* .overlay-image{
+    position: relative;
+ width: 100%;
+ position: absolute;
+ top: 20px;
+ left: 30px;
+ width: 100px;
+ } */ 
+  .banner-text{
+    text-align: center;
+  }
+  .banner-title{
+    color: rgba(255,255,255,1);
+    font-style: Extra bold;
+    font-weight: 600;
+    font-size: 50px;
+  }
+  .banner-description{
+    color:rgba(255,255,255,1);
+    font-style: normal;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  /* .button{
+    background-color: rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1);
+  } */
+   .button{
+    background-color: rgba(247,233,63,1),rgba(251,9,180,1);
+    border-radius: 10000px;
+    align-items: center;
+    justify-content:center;
+    gap: 8px;
+   }
+   .button-two{
+    border: 1px solid rgba(0,255,136,1);
+    border-radius: 10000px;
+   }
