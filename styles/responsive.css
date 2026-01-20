@@ -12,7 +12,11 @@
     padding-top: 15px;
   }
 
-  .podcast-list,.footer-icon {
+  .podcast-list {
+   grid-template-columns: repeat(2,1fr);
+   padding-top: 20px;
+  }
+ .footer-icon {
    grid-template-columns: repeat(2,auto);
    padding-top: 20px;
   }
@@ -43,7 +47,6 @@
     display: none;
   }
    .podcast-list {
-    /* border: 10px solid red; */
     flex-wrap: wrap;
   }
 }
