@@ -27,7 +27,7 @@ body {
   );
   color: white;
    border-radius: 10000px;
-  padding: 16px 20px 16px 20px;
+  padding: 16px 40px 16px 40px;
   margin-top: 48px;
   border: none;
   justify-content: center;
@@ -35,54 +35,45 @@ body {
 }
 /* banner section style */
 .banner-section {
-  background-color: red;
+ background-image: url("../assets/hero-bg.png"); 
+ background-position: center;
 }
 .image-container {
-  /* display:inline-block; */
   position: relative;
-  width: 400px;
+  width: 380px;
+  height: 510px;
   margin: 0 auto;
-  /* justify-content: center; */
-  /* align-items: center; */
 }
 .base-image {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 35%;
+  left: 38%;
   width: 100px;
 }
 .overlay-image {
   width: 100%;
+  padding-top: 30px;
+  margin-top: 50px;
 }
-
-/* .overlay-image{
-    position: relative;
- width: 100%;
- position: absolute;
- top: 20px;
- left: 30px;
- width: 100px;
- } */
 .banner-text {
   text-align: center;
+  flex-direction: column;
+  gap: 8px;
 }
 .banner-title {
   color: rgba(255, 255, 255, 1);
   font-style: Extra bold;
   font-weight: 600;
   font-size: 50px;
+  gap: 9px;
 }
 .banner-description {
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.818);
   font-style: normal;
   font-size: 15px;
   font-weight: 400;
 }
-/* .button{
-    background-color: rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1);
-  } */
 .button {
-  /* background-color: rgba(247, 233, 63, 1), rgba(251, 9, 180, 1); */
   background: RGBA(247, 233, 63, 1);
   background: linear-gradient(
     15deg,
@@ -90,14 +81,21 @@ body {
     rgba(251, 9, 180, 1) 50%,
     rgba(145, 0, 248, 1) 100%
   );
+  color: #FFFFFF;
+  border: none;
   border-radius: 10000px;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  padding: 12px 20px 12px 20px;
+  gap: 9px;
 }
 .button-two {
   border: 1px solid rgba(0, 255, 136, 1);
   border-radius: 10000px;
+  background-color:#1a0b2e;
+  color:rgba(0, 255, 136, 1);
+  padding: 12px 20px 12px 20px;
+  gap: 9px;
 }
 /* about section style */
 .about-container {
