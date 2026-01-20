@@ -217,8 +217,13 @@ padding: 25px;
 }
 
 /* featured episodes styles */
+
+.featured-episodes-section{
+    padding-top: 70px;
+}
 .featured-title{
     text-align: center;
+    color: #FFFFFF;
     /* gap: 40px; */
     /* height: 538px;
     width: 12px; */
@@ -227,6 +232,16 @@ padding: 25px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
+}
+.episodes-container h2{
+    color: #FFF;
+    font-size: 16px;
+}
+.episodes-container p{
+    color: #ffffff93;
+}
+.episodes-container h5{
+    color: #07f165;
 }
 .box-one{
     background: rgba(53, 17, 101, 0.4);
@@ -239,6 +254,13 @@ padding: 25px;
 .box-three{
     background: rgba(53, 17, 101, 0.4);
     border-radius: 24px;
+}
+.box-one,.box-two,.box-three{
+    padding: 25px;
+}
+iframe{
+    border: none;
+    border-radius: 8px;
 }
 
 /* meet the host styles */
