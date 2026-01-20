@@ -98,16 +98,43 @@ body {
   gap: 9px;
 }
 /* about section style */
+
+.About-section{
+    padding-top: 60px;
+
+}
 .about-container {
   text-align: center;
+  /* line-height: 0%; */
   /* display: flex; */
+}
+.about-title{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 50px;
+}
+.about-description{
+    color:#ffffffd8;
 }
 .podcast-list {
   display: flex;
   /* text-align: center; */
   justify-content: space-between;
+  padding-top: 30px;
+  line-height: 50%;
   align-items: flex-start;
   gap: 80;
+}
+.number{
+    color: #00FF88;
+    font-size: 48px;
+    font-weight: 900;
+}
+.number-name{
+    color: #ffffffd8;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 /* why choose tech-wave style */
